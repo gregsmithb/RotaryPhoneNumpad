@@ -39,7 +39,44 @@ void loop()
       count = 0;
     }
     //type the number dialed
-    Keyboard.print(String(count));
+    
+    switch (count) {
+      case 1:
+       Keyboard.print(String(count));
+        break;
+      case 2:        
+       Keyboard.print(String(count));
+        break;
+      case 3:
+       Keyboard.print(String(count));
+        break;
+      case 4:
+       Keyboard.print(String(count));
+        break;
+      case 5:
+       Keyboard.print(String(count));
+        break;
+      case 6:
+       Keyboard.print(String(count));
+        break;
+      case 7:
+        Keyboard.print(String(count));
+        break;
+      case 8:
+        Keyboard.print(String(count));
+        break;
+      case 9:
+        Keyboard.print(String(count));
+        break;
+      case 10:
+        Keyboard.print(String(count));
+        break;
+      default:
+        Keyboard.print(String(count));
+        break;
+    }
+    
+
     count = 0;
   }
 }
