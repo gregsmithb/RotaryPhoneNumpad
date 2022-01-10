@@ -39,7 +39,8 @@ void loop()
       count = 0;
     }
     //type the number dialed
-    
+
+    //added switch case to make it easier to do different keystrokes for each number dialed
     switch (count) {
       case 1:
        Keyboard.print(String(count));
@@ -68,7 +69,7 @@ void loop()
       case 9:
         Keyboard.print(String(count));
         break;
-      case 10:
+      case 0:
         Keyboard.print(String(count));
         break;
       default:
