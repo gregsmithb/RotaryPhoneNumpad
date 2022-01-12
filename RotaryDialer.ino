@@ -38,46 +38,11 @@ void loop()
     if (count >= 10) {
       count = 0;
     }
-    //type the number dialed
-
-    //added switch case to make it easier to do different keystrokes for each number dialed
-    switch (count) {
-      case 1:
-       Keyboard.print(String(count));
-        break;
-      case 2:        
-       Keyboard.print(String(count));
-        break;
-      case 3:
-       Keyboard.print(String(count));
-        break;
-      case 4:
-       Keyboard.print(String(count));
-        break;
-      case 5:
-       Keyboard.print(String(count));
-        break;
-      case 6:
-       Keyboard.print(String(count));
-        break;
-      case 7:
-        Keyboard.print(String(count));
-        break;
-      case 8:
-        Keyboard.print(String(count));
-        break;
-      case 9:
-        Keyboard.print(String(count));
-        break;
-      case 0:
-        Keyboard.print(String(count));
-        break;
-      default:
-        Keyboard.print(String(count));
-        break;
-    }
     
-
+    //type the number dialed
+    Keyboard.print(String(count));
+    
+    //flush counter
     count = 0;
   }
 }
